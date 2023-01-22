@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio- Siddhesh Panchal</title>
+
+    <!-- Font Awesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main id="main-container">
+      <!-- Navigation -->
+      <nav class="navbar">
+        <nav class="nav-container">
+          <p class="logo"><a href="#home">SP.</a></p>
+          <ul class="nav-menu">
+            <li class="nav-link"><a href="#home" class="link__hover">01.Home</a></li>
+            <li class="nav-link"><a href="#projects" class="link__hover">02.Projects</a></li>
+            <i class="fa-solid fa-circle-half-stroke dark-toggle"></i>
+          </ul>
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </nav>
+      </nav>
+      <section id="home" class="section-container">
+        <h1 class="homepage__name">Siddhesh Panchal</h1>
+        <h2 class="homepage__role">Frontend Developer</h2>
+        <p class="homepage__about">
+          I'm a frontend developer based in Mumbai, and I'm looking forward to
+          build my career in the corporate sector.
+        </p>
+        <a href="" target="_blank"><button class="homepage__resume">Check Resume</button></a>
+        <div>
+          <a href="https://www.linkedin.com/in/panchalsiddhesh2605/" target="_blank">
+            <i class="fa fa-brands fa-linkedin fa-2x" title="Linkedin"></i>
+          </a>
+          <a href="https://github.com/panchalsiddhesh" target="_blank">
+            <i class="fa fa-brands fa-github fa-2x" title="Github"></i>
+          </a>
+          <a href="https://leetcode.com/siddheshpanchal2000/" target="_blank">
+            <i class="fa fa-solid fa-code fa-2x" title="Leetcode"></i>
+          </a>
+        </div>
+      </section>
+      
+      <section id="projects" class="section-container">
+        <h2 class="projects__heading">Projects</h2>
+        <div class="project">
+          <a href="https://panchalsiddhesh.github.io/react-ecommerce-website/" target="_blank"><img class="project__image" src="assets/react-ecommerce-website-thumbnail.png" alt="react ecommerce website"/></a>
+          <h3 class="project__title">React Ecommerce Website - Shopping Cart</h3>
+          <p class="project__desc">This is my most recent project in which I have tried to simulate a shopping cart experience of a ecommerce website. Functionalities like "Add to Cart", "Remove From Cart" and "Increasing or Decreasing product quantity" have been implemented. I have used Redux for State Management and overall this project was a great learning experience.</p>
+          <a href="https://panchalsiddhesh.github.io/react-ecommerce-website/" target="_blank"><button class="project__live-demo">Live Demo</button></a>
+          <a href="https://github.com/panchalsiddhesh/react-ecommerce-website" target="_blank"><button class="project__view-github">View Github</button></a>
+        </div>
+        <div class="project">
+          <a href="https://panchalsiddhesh.github.io/react-discord-clone/" target="_blank"><img class="project__image project__image__discord" src="assets/react-discord-clone-thumbnail.png" alt="react discord clone"/></a>
+          <h3 class="project__title">React Discord Clone - Realtime Chat</h3>
+          <p class="project__desc">Discord is a social media platform for connecting with friends and sending chats. I have been using discord since a long time and that inspired me to create a discord clone with some basic functionalities. Through this project we can have realtime chats with our friends, create new text channels and delete them all in realtime. The backend for this project is supported by Google Firebase and I have used UseState and Redux for State Management.</p>
+          <a href="https://panchalsiddhesh.github.io/react-discord-clone/" target="_blank"><button class="project__live-demo">Live Demo</button></a>
+          <a href="https://github.com/panchalsiddhesh/react-discord-clone" target="_blank"><button class="project__view-github">View Github</button></a>
+        </div>
+        <div class="project">
+          <a href="https://panchalsiddhesh.github.io/react-quiz-app/" target="_blank"><img class="project__image" src="assets/react-quiz-app-thumbnail.png" alt="react quiz app"/></a>
+          <h3 class="project__title">React Quiz Application</h3>
+          <p class="project__desc">One of the first projects that I made in ReactJs. A simple interactive application that keeps track of total score of the user and displays it at the end of the quiz. I have used UseState to track the state of the user score and render it dynamically at the end.</p>
+          <a href="https://panchalsiddhesh.github.io/react-quiz-app/" target="_blank"><button class="project__live-demo">Live Demo</button></a>
+          <a href="https://github.com/panchalsiddhesh/react-quiz-app" target="_blank"><button class="project__view-github">View Github</button></a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Scripts -->
+    <script src="./index.js"></script>
+  </body>
+</html>
